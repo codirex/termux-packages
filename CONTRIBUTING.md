@@ -305,7 +305,7 @@ Pay attention to things listed below.
    equivalents. Termux's standard installation prefix is
 
    ```console
-   /data/data/com.termux/files/usr
+   /data/data/org.codirex.ide/files/usr
    ```
 
    which can be considered a virtual root directory.
@@ -313,7 +313,7 @@ Pay attention to things listed below.
    The home directory is stored outside of the prefix at:
 
    ```console
-   /data/data/com.termux/files/home
+   /data/data/org.codirex.ide/files/home
    ```
 
    Don't hardcode home and prefix, use the placeholders `@TERMUX_HOME@` and
